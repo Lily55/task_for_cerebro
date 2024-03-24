@@ -59,9 +59,11 @@ function Content() {
       {
         posts.map((post) => (
           <div className='vertical-container'>
-            <tr>User: {checkUser(post.userId)}</tr>
-            <tr>Title: {post.title}</tr>
-            <tr>Body: {post.body}</tr>
+            <table>
+              <tr><a>User:</a> {checkUser(post.userId)}</tr>
+              <tr><a>Title:</a> {post.title}</tr>
+              <tr><a>Body:</a> {post.body}</tr>
+            </table>
           </div>
         ))
       }

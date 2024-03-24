@@ -19,7 +19,18 @@ code {
 }
 
 .vertical-container {
+  display: flex;
+  flex-direction: column;
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.vertical-container tr a {
+  font-weight: 900;
+}
+
+.vertical-container table {
+  border: medium solid gold;
+  border-radius: 10px 10px 10px 10px;
 }
